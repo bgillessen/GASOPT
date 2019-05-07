@@ -26,4 +26,4 @@ Shortcuts might be used to model grid elements without physical dimension.
 
 Compressor stations are modelled with a list of configurations that store information of open/closed elements per configuration. The minEps and maxEps value sets the minimum and maximum pressure ratio of compressors. Valves and control valves differ as control valves can reduce the pressure when open.
 
-
+Further details about the tool will be published in the corresponding PhD thesis. 
