@@ -12,7 +12,7 @@ Calculate pressure and flow values of gas flows within a gas grid based on the d
 
 The released code is developed and tested for GAMS 25.0.2 with CPLEX 12.7.0 (see: [GAMS](https://www.gams.com/) and [CPLEX](https://www.ibm.com/de-de/products/ilog-cplex-optimization-studio)). Other MILP solvers than CPLEX might be used. Run stage 1 and stage 2 consecutively. Results are stored in "GASOPT_MIP_stage_1_results.xlsx" and/or "GASOPT_MIP_stage_1_results.xlsx"
 
-## provided example
+## Example
 
 Examplaric data is provided in order to make the code comprehensible (see also Example.pdf). The values provided  do not have the presumption to be physically correct. 
 
@@ -25,5 +25,7 @@ Further relevant pipe parameters are length L in m, inner diameter D in m, rough
 Shortcuts might be used to model grid elements without physical dimension.
 
 Compressor stations are modelled with a list of configurations that store information of open/closed elements per configuration. The minEps and maxEps value sets the minimum and maximum pressure ratio of compressors. Valves and control valves differ as control valves can reduce the pressure when open.
+
+## More information
 
 Further details about the tool will be published in the corresponding PhD thesis. 
